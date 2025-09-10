@@ -590,7 +590,7 @@ def init_groq_llm():
         
         # Using llama-3.1-70b-versatile for better performance in RAG
         return GroqLLM(
-            model="llama-3.1-70b-versatile", 
+            model="llama-3.3-70b-versatile", 
             api_key=groq_api_key,
             temperature=0.1,
             max_tokens=512
