@@ -1,1 +1,22 @@
+# Minimal requirements - add others gradually
+streamlit
+qdrant-client
+requests
+numpy
+pandas
+Pillow
 
+# Add these one by one if the above works:
+llama-index
+llama-index-core
+llama-index-vector-stores-qdrant
+llama-index-embeddings-huggingface
+llama-index-llms-groq
+opencv-python-headless
+easyocr
+sentence-transformers
+torch
+transformers
+llama-index-readers-file
+pymupdf4llm
+groq
